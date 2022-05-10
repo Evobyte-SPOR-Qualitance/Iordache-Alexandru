@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./toDoList.css">
+        <title>To Do List</title>
+        <h1 id="title"> To do list</h1>       
+        <!-- <h3 id="heading">Todays chores</h3> -->
+    </head>
+
+    <body>
+        <div>
+            <ul id="list">
+                <div>
+                    <li class="default-element" id="default">Start adding to your list!</li>
+                </div>
+            </ul>
+        </div>
+        <input placeholder="Task Name" id="placeholder">
+        <button onclick="addTask()">Add Task</button>
+        <button onclick="removeTask()">Remove Task</button>
+        <p>Number of Completed Tasks: </p>
+        <p id="completedTaskCounter">0</p>
+        <p id="slash"> / </p>
+        <p id="totalTaskCounter">0</p>
+
+        <p id="finalMessage">Congratulations, you have completed all your tasks!</p>
+
+        <script src="toDoList.js"> </script>
+    </body>
+
+
+</html>

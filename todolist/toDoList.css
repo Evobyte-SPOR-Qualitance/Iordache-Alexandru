@@ -1,0 +1,80 @@
+html{
+    background-color:  rgb(240,170,137) ;
+    font-family: Monaco;
+    text-align: center;
+    margin-top: 5rem;
+}
+#title{
+    text-align: center;
+}
+ #heading{
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: -2rem;
+ }
+
+ #list{
+     list-style: none;
+ }
+
+ .list-element{
+    width: 470px;
+    margin: auto;
+    display: inline-block;
+    font-size: 30px;
+    padding-bottom: 3px;
+    border: solid, 2px, black;
+    text-align: left;
+    text-decoration:underline;
+ }
+
+ #placeholder{
+    margin-left: 3rem;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.89);
+    border-radius: 6px;
+    height:30px;
+    width:300px;
+ }
+
+ #separator{
+    display: inline-block;
+ }
+
+ .default-element{
+    font-size: 30px;
+    margin-left: 1rem;
+ }
+ .dot {
+    position: relative;   
+    font-size: 40px;
+    display: inline-block;
+    color: green;
+    padding: 0 0 0 0;
+    visibility: hidden;
+
+  }
+
+  hr {
+   width: 480px;
+   margin: auto;
+   border: 1px solid black;
+  }
+  button{
+   border: 1px solid rgba(0,0,0,0.89);
+   border-radius: 6px;
+   height: 30px;
+  }
+  #totalTaskCounter {
+     display: inline-block;
+  }
+  #completedTaskCounter{
+   display: inline-block;
+  }
+  #slash{
+   display: inline-block;
+  }
+
+  #finalMessage{
+     visibility: hidden;
+  }
